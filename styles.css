@@ -1,5 +1,17 @@
+/* normalizing our css */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
 * {
+
     /* color: green; */
+
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
@@ -7,7 +19,7 @@
 p {
     color: blue;
 }
-/* class selector */
+/* class selector */;
 .my-ps {
     background-color: peru;
 }
@@ -16,7 +28,29 @@ p {
 }
 
 li {
-    color: hotpink;
+    color: hotpink
+}
+
+.box {
+    color: white;
+    font-weight: 600;
+    background-color: slateblue;
+    /* padding-top: 10px;
+    /* padding-right: 10px; */
+    /* padding-bottom: 10px;
+    padding-left: 10px;  */
+    padding: 10px;
+    /* border-color: black; 
+    border-style: solid;
+    border=width: 3px; */
+    border: solid 1px black;
+    border-radius: 10px;
+    text-transform: capitalize;
+    /* margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 20px; */
+    margin: 10px 20px;
 }
 /* child selector */
 footer{
